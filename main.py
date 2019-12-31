@@ -83,6 +83,8 @@ def mainMenu():
 #run the command to setup the phantom server
 def setupL():
 	os.system('chmod u+x ./phantom-linux');
+	print('Setting up for Linux.');
+	time.sleep(3);
 
 
 #main logic of the connect step
